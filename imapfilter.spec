@@ -1,6 +1,6 @@
 Summary:	IMAPFilter is a mail filtering utility
 Name:		imapfilter
-Version:	1.2.2
+Version:	2.0.3
 Release: 	%mkrel 1
 License:	MIT
 Group:		Networking/Mail
