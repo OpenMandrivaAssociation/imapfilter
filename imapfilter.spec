@@ -1,4 +1,4 @@
-Summary:	IMAPFilter is a mail filtering utility
+Summary:	Mail filtering utility
 Name:		imapfilter
 Version:	2.0.3
 Release: 	%mkrel 1
