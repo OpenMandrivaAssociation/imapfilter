@@ -1,7 +1,7 @@
 Summary:	Mail filtering utility
 Name:		imapfilter
 Version:	2.0.3
-Release: 	%mkrel 2
+Release: 	%mkrel 4
 License:	MIT
 Group:		Networking/Mail
 URL:		http://imapfilter.hellug.gr/
