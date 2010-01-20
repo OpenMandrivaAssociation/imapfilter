@@ -1,11 +1,11 @@
 Summary:	Mail filtering utility
 Name:		imapfilter
-Version:	2.0.3
-Release: 	%mkrel 5
+Version:	2.2
+Release: 	%mkrel 1
 License:	MIT
 Group:		Networking/Mail
 URL:		http://imapfilter.hellug.gr/
-Source:		%{name}-%{version}.tar.bz2
+Source:		http://imapfilter.hellug.gr/source/%{name}-%{version}.tar.bz2
 BuildRoot:	%_tmppath/%{name}-buildroot
 Buildrequires:	openssl-devel  pcre-devel
 Buildrequires:	liblua-devel >= 5
@@ -35,10 +35,9 @@ mails, copy and/or move messages between folders, etc.
 
 %install
 rm -rf %buildroot
-%makeinstall_std BINDIR=%{buildroot}/%{_bindir}\
-	SHAREDIR=%{buildroot}/%{_datadir}/imapfilter\
-	MANDIR=%{buildroot}/%{_mandir}
-
+%makeinstall_std BINDIR=%{_bindir}\
+	SHAREDIR=%{_datadir}/imapfilter\
+	MANDIR=%{_mandir}
 
 %clean
 rm -rf %buildroot
