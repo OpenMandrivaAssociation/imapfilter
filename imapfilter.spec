@@ -8,7 +8,7 @@ URL:		http://imapfilter.hellug.gr/
 Source:		http://imapfilter.hellug.gr/source/%{name}-%{version}.tar.bz2
 BuildRoot:	%_tmppath/%{name}-buildroot
 Buildrequires:	openssl-devel  pcre-devel
-Buildrequires:	liblua-devel >= 5
+Buildrequires:	lua-devel
 
 %description
 IMAPFilter is a mail filtering utility. It connects to remote mail servers
