@@ -1,6 +1,6 @@
 Summary:	Mail filtering utility
 Name:		imapfilter
-Version:	2.4
+Version:	2.4.1
 Release:	1
 License:	MIT
 Group:		Networking/Mail
