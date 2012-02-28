@@ -1,11 +1,11 @@
 Summary:	Mail filtering utility
 Name:		imapfilter
-Version:	2.5
+Version:	2.5.1
 Release:	1
 License:	MIT
 Group:		Networking/Mail
 URL:		http://imapfilter.hellug.gr/
-Source:		http://imapfilter.hellug.gr/source/%{name}-%{version}.tar.gz
+Source0:	http://imapfilter.hellug.gr/source/%{name}-%{version}.tar.gz
 Buildrequires:	openssl-devel  pcre-devel
 Buildrequires:	lua-devel
 
