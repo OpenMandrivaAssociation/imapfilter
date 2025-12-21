@@ -6,6 +6,7 @@ License:	MIT
 Group:		Networking/Mail
 URL:		https://imapfilter.hellug.gr/
 Source0:	http://imapfilter.hellug.gr/source/%{name}-%{version}.tar.gz
+BuildRequires:	make
 Buildrequires:	openssl-devel  pcre-devel
 Buildrequires:	lua-devel
 
